@@ -1,0 +1,98 @@
+/*-- This file contains the submission material for the Udacity Nanodegree
+Introduction to Programming by Jes H.
+
+Here goes my CSS for html notes in separate file.
+
+Palette:
+pale yellow : #cbca70;
+dark blue   : #23324c;
+pale blue   : #3a547f;
+light blue  : #9aadcb;
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  font-family: Helvetica;
+  max-width: 750px;
+  /* display: flex; /* Enable to eliminate the block behaviour of div! */
+}
+
+.lesson {
+  color: #cbca70;
+  background-color: #23324c;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.concept {
+  background-color: #3a547f;
+  padding: 4px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.concept-description {
+  margin: 6px;
+}
+
+.addmargin {
+  margin: 10px;
+}
+
+.toplink {
+  text-align: right;
+}
+
+.thumbnail {
+  height: 30px;
+}
+
+.screenshot {
+  width: 100%;
+}
+
+span.code {
+  font-family: Courier;
+  background-color: #23324c;
+  padding: 2px;
+  font-weight: bold;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+  color: #23324c;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: #9aadcb;
+  font-size: 20px;
+  margin: 4px;
+  text-align: left;
+}
+
+ul {
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+  padding-left: 1.2em;
+}
+
+table, th, td {
+  vertical-align: top;
+  text-align: left;
+  padding:10px;
+  border: 1px solid #23324c;
+  border-collapse: collapse;
+  width: 70%;
+}
